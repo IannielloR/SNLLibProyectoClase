@@ -6,7 +6,7 @@ using System.Text;
 
 namespace LibProyectoClase.Models.Terrestre.Moto
 {
-    public class MotoMel:Tierra
+    public class MotoMel:Moto
     {
         public MotoMel(int ruedas, int capacidad, int cilindraje, string color, string modelo, bool nueva) : base(ruedas, capacidad, cilindraje, color)
         {
