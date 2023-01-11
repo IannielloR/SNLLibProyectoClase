@@ -6,7 +6,7 @@ using System.Text;
 
 namespace LibProyectoClase.Models.Terrestre.Moto
 {
-    public class MotoCarrera:Tierra
+    public class MotoCarrera:Motocicleta
     {
         public MotoCarrera(int ruedas, int capacidad, int cilindraje, string color, double velocidadMaxima, string categoria) : base(ruedas, capacidad, cilindraje, color)
         {
