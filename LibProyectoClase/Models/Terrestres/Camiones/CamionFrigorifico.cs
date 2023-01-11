@@ -6,7 +6,7 @@ using System.Text;
 
 namespace LibProyectoClase.Models.Terrestre.Camion
 {
-    public class CamionFrigorifico:Tierra
+    public class CamionFrigorifico:Camion
     {
         public CamionFrigorifico(int ruedas, int capacidad, double largo, double pesoTotal, int frioMaximo, double tiempoDeFrio) : base(ruedas, capacidad, largo, pesoTotal)
         {
