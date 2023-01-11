@@ -8,7 +8,7 @@ namespace LibProyectoClase.Models.Terrestre
 {
     public class Moto:Tierra
     {
-        public Motocicleta(int ruedas, int capacidad, int cilindraje, string color) : base(ruedas, capacidad)
+        public Moto(int ruedas, int capacidad, int cilindraje, string color) : base(ruedas, capacidad)
         {
             Cilindraje = cilindraje;
             Color = color;
