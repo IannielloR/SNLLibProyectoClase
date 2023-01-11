@@ -6,7 +6,7 @@ using System.Text;
 
 namespace LibProyectoClase.Models.Terrestre.Moto
 {
-    public class MotoConSidecard:Tierra
+    public class MotoConSidecard:Moto
     {
         public MotoConSidecard(int ruedas, int capacidad, int cilindraje, string color, int pasajeros, int modelo) : base(ruedas, capacidad, cilindraje, color)
         {
