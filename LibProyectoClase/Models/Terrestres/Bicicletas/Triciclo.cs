@@ -6,7 +6,7 @@ using System.Text;
 
 namespace LibProyectoClase.Models.Terrestre.Bici
 {
-    public class Triciclo:Tierra
+    public class Triciclo:Bicicleta
     {
         public Triciclo(int ruedas, int capacidad, bool guardaBarros, string peso, bool timbre, double kilosCarga) : base(ruedas, capacidad, guardaBarros, peso)
         {
