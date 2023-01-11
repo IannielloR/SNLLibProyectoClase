@@ -6,7 +6,7 @@ using System.Text;
 
 namespace LibProyectoClase.Models.Terrestre.Auto
 {
-    public class AutoFormula1:Tierra
+    public class AutoFormula1:Auto
     {
         public AutoFormula1(int ruedas, int capacidad, string color, string velocidadMaxima, string equipo) : base(ruedas, capacidad, color)
         {
