@@ -6,7 +6,7 @@ using System.Text;
 
 namespace LibProyectoClase.Models.Terrestre.Auto
 {
-    public class AutoElectrico:Tierra
+    public class AutoElectrico:Auto
     {
         public AutoElectrico(int ruedas, int capacidad, string color, string bateriaDuracion, string voltaje) : base(ruedas, capacidad, color)
         {
